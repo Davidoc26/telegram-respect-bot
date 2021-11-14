@@ -16,7 +16,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	bot, err := tgbotapi.NewBotAPI("2072937422:AAGq0OIgqVK9YXdM0-3f9pijjkhxdhfQXy8")
+	bot, err := tgbotapi.NewBotAPI("<TOKEN>")
 	if err != nil {
 		log.Panic(err)
 	}
